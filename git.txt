@@ -1,0 +1,41 @@
+git-scm.com/download/win
+
+
+git init
+
+git staus
+
+git add filename.txt
+git add .	        [stages all]
+git reset HEAD    [unstage all]
+
+[undo unstaged change to previous commit]
+git checkout test_git.txt
+
+git commit -m 'change1'
+git log
+
+[undo commited changes]
+git revert 81129e33f7252182e2bb4d08159b57914cf7ecc2
+
+
+git branch
+git branch newbranch 	[create]
+git checkout newbranch  [Switch]
+git checkout -b new_branch [create & switch]
+
+[first checkout to master]
+git merge newbranch
+
+
+git branch -D branch_name [delete]
+
+
+
+git config --global user.name 'Syed Golam Nabi'
+git config --global user.email 'psychpixles@gmail.com'
+git config --global --list
+git config --global --unset-all user.name
+
+git remote add origin https://github.com/psychpixles/seeit.git
+git push -u origin master
