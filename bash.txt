@@ -1,0 +1,12 @@
+-----------------------
+
+cd '.\SOP Texts\'           [go to folder]
+cd ..                       [go back]
+pwd                         [shows path]
+clear
+cd "E:\Coding\jupyter notebook\env_j"  [goes to specific folder]
+E:                                     [goes to e drive]
+start "https://www.google.com"         [runs a ]
+ls                                     [shows folder contents]
+
+------------------------
