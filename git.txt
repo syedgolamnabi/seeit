@@ -33,7 +33,7 @@ git branch -D branch_name [delete]
 
 
 git config --global user.name 'Syed Golam Nabi'
-git config --global user.email 'psychpixles@gmail.com'
+git config --global user.email 'golamnabi3@outlook.com'
 git config --global --list
 git config --global --unset-all user.name
 
